@@ -1,0 +1,6 @@
+framework module Pods_YeolDot {
+  umbrella header "Pods-YeolDot-umbrella.h"
+
+  export *
+  module * { export * }
+}

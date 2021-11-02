@@ -1,0 +1,23 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaMQTT (1.2.1):
+    - CocoaAsyncSocket (~> 7.6.3)
+
+DEPENDENCIES:
+  - CocoaMQTT (from `CocoaMQTT-master/`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+
+EXTERNAL SOURCES:
+  CocoaMQTT:
+    :path: CocoaMQTT-master/
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaMQTT: 0170e4b857e1db364813f0923c3b96496b78448c
+
+PODFILE CHECKSUM: 38fd15521f96e662cc8e0cfc408cbd6b90752b26
+
+COCOAPODS: 1.7.1

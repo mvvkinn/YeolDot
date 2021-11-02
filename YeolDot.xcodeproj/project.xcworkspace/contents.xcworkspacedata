@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/gimminu/Documents/&#x1102;&#x1167;&#x11ab;&#x1103;&#x1169;&#x1107;&#x1167;&#x11af; &#x110c;&#x1165;&#x11bc;&#x1105;&#x1175;/2019/00.&#x1112;&#x1161;&#x11a8;&#x1100;&#x116d;/00.1&#x1112;&#x1161;&#x11a8;&#x1100;&#x1175;/03. &#x110b;&#x1175;&#x11b7;&#x1107;&#x1166;&#x1103;&#x1175;&#x1103;&#x1173; &#x110b;&#x1173;&#x11bc;&#x110b;&#x116d;&#x11bc; &#x1111;&#x1173;&#x1105;&#x1169;&#x1100;&#x1173;&#x1105;&#x1162;&#x1106;&#x1175;&#x11bc;/&#x1100;&#x1175;&#x1106;&#x1161;&#x11af;&#x1100;&#x1169;&#x1109;&#x1161; &#x1100;&#x116a;&#x110c;&#x1166;/YeolDot/resources/README.md">
+   </FileRef>
+   <FileRef
+      location = "group:../README.md">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>

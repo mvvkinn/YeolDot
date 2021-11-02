@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B1A6B278F2C299463ECCDED /* Pods_YeolDot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E981F2A4D7B76CF62823A40F /* Pods_YeolDot.framework */; };
+		AE19926922979C7B0023870A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19926822979C7B0023870A /* AppDelegate.swift */; };
+		AE19926B22979C7B0023870A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19926A22979C7B0023870A /* ViewController.swift */; };
+		AE19926E22979C7B0023870A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE19926C22979C7B0023870A /* Main.storyboard */; };
+		AE19927022979C7D0023870A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE19926F22979C7D0023870A /* Assets.xcassets */; };
+		AE19927322979C7D0023870A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE19927122979C7D0023870A /* LaunchScreen.storyboard */; };
+		AE19927E22979C7D0023870A /* YeolDotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19927D22979C7D0023870A /* YeolDotTests.swift */; };
+		AE19928922979C7D0023870A /* YeolDotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19928822979C7D0023870A /* YeolDotUITests.swift */; };
+		AE1BEA8122A54CCF00E94C04 /* SubMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1BEA8022A54CCF00E94C04 /* SubMQTT.swift */; };
+		AE3B7C802297A26200128A4C /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE3B7C7F2297A26200128A4C /* background.jpg */; };
+		AE3FE927229D156F009AD497 /* settings-cog.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3FE926229D156F009AD497 /* settings-cog.png */; };
+		AE4620A122A3AE6D000A1113 /* BringWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4620A022A3AE6D000A1113 /* BringWeatherData.swift */; };
+		AE6CB5FE22A57225008FDA9C /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = AE6CB5FD22A57225008FDA9C /* refresh.png */; };
+		AECF022D22B3BF8200D9B1D2 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF022C22B3BF8200D9B1D2 /* LoadingViewController.swift */; };
+		AECF022F22B3C2DC00D9B1D2 /* FineDustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF022E22B3C2DC00D9B1D2 /* FineDustViewController.swift */; };
+		AECF023122B3C2F500D9B1D2 /* UltrafineDustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF023022B3C2F400D9B1D2 /* UltrafineDustViewController.swift */; };
+		C02C8FB722B4C4030017D56A /* LoginImformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02C8FB622B4C4030017D56A /* LoginImformationViewController.swift */; };
+		C02C8FB922B4D68F0017D56A /* AddLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02C8FB822B4D68F0017D56A /* AddLoginViewController.swift */; };
+		C0668AC922BC9EBB008A85E7 /* BringDeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0668AC822BC9EBB008A85E7 /* BringDeviceData.swift */; };
+		C0668ACB22BC9F29008A85E7 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0668ACA22BC9F29008A85E7 /* SettingViewController.swift */; };
+		C0668ACD22BCA5C2008A85E7 /* SaveLoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0668ACC22BCA5C2008A85E7 /* SaveLoginData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE19927A22979C7D0023870A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE19925D22979C7B0023870A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE19926422979C7B0023870A;
+			remoteInfo = YeolDot;
+		};
+		AE19928522979C7D0023870A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE19925D22979C7B0023870A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE19926422979C7B0023870A;
+			remoteInfo = YeolDot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AEB5E252647AB9948FDC7A2 /* Pods-YeolDot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeolDot.release.xcconfig"; path = "Target Support Files/Pods-YeolDot/Pods-YeolDot.release.xcconfig"; sourceTree = "<group>"; };
+		68D9DA03C68A3346FE116B8A /* Pods-YeolDot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeolDot.debug.xcconfig"; path = "Target Support Files/Pods-YeolDot/Pods-YeolDot.debug.xcconfig"; sourceTree = "<group>"; };
+		AE19926522979C7B0023870A /* YeolDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeolDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE19926822979C7B0023870A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE19926A22979C7B0023870A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE19926D22979C7B0023870A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE19926F22979C7D0023870A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE19927222979C7D0023870A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE19927422979C7D0023870A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE19927922979C7D0023870A /* YeolDotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeolDotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE19927D22979C7D0023870A /* YeolDotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeolDotTests.swift; sourceTree = "<group>"; };
+		AE19927F22979C7D0023870A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE19928422979C7D0023870A /* YeolDotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeolDotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE19928822979C7D0023870A /* YeolDotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeolDotUITests.swift; sourceTree = "<group>"; };
+		AE19928A22979C7D0023870A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1BEA8022A54CCF00E94C04 /* SubMQTT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubMQTT.swift; sourceTree = "<group>"; };
+		AE3B7C7F2297A26200128A4C /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		AE3FE924229D0CE5009AD497 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = resources/README.md; sourceTree = "<group>"; };
+		AE3FE926229D156F009AD497 /* settings-cog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-cog.png"; sourceTree = "<group>"; };
+		AE4620A022A3AE6D000A1113 /* BringWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BringWeatherData.swift; sourceTree = "<group>"; };
+		AE6CB5FD22A57225008FDA9C /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		AECF022C22B3BF8200D9B1D2 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		AECF022E22B3C2DC00D9B1D2 /* FineDustViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FineDustViewController.swift; sourceTree = "<group>"; };
+		AECF023022B3C2F400D9B1D2 /* UltrafineDustViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UltrafineDustViewController.swift; sourceTree = "<group>"; };
+		C02C8FB622B4C4030017D56A /* LoginImformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginImformationViewController.swift; sourceTree = "<group>"; };
+		C02C8FB822B4D68F0017D56A /* AddLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLoginViewController.swift; sourceTree = "<group>"; };
+		C0668AC822BC9EBB008A85E7 /* BringDeviceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BringDeviceData.swift; sourceTree = "<group>"; };
+		C0668ACA22BC9F29008A85E7 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		C0668ACC22BCA5C2008A85E7 /* SaveLoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLoginData.swift; sourceTree = "<group>"; };
+		E981F2A4D7B76CF62823A40F /* Pods_YeolDot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YeolDot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE19926222979C7B0023870A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A6B278F2C299463ECCDED /* Pods_YeolDot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19927622979C7D0023870A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19928122979C7D0023870A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36AAC0DA916857EA0F5B7B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E981F2A4D7B76CF62823A40F /* Pods_YeolDot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C1D34EF9B92AAE00DECA1B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68D9DA03C68A3346FE116B8A /* Pods-YeolDot.debug.xcconfig */,
+				4AEB5E252647AB9948FDC7A2 /* Pods-YeolDot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE12FA9822A2BAEB00312D8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE19926C22979C7B0023870A /* Main.storyboard */,
+				AE19927122979C7D0023870A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE12FA9922A2BB0B00312D8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0668AC822BC9EBB008A85E7 /* BringDeviceData.swift */,
+				AE1BEA8022A54CCF00E94C04 /* SubMQTT.swift */,
+				AE4620A022A3AE6D000A1113 /* BringWeatherData.swift */,
+				C0668ACC22BCA5C2008A85E7 /* SaveLoginData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE12FA9A22A2BB1A00312D8A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0668ACA22BC9F29008A85E7 /* SettingViewController.swift */,
+				AECF023022B3C2F400D9B1D2 /* UltrafineDustViewController.swift */,
+				AECF022E22B3C2DC00D9B1D2 /* FineDustViewController.swift */,
+				AECF022C22B3BF8200D9B1D2 /* LoadingViewController.swift */,
+				AE19926A22979C7B0023870A /* ViewController.swift */,
+				C02C8FB622B4C4030017D56A /* LoginImformationViewController.swift */,
+				C02C8FB822B4D68F0017D56A /* AddLoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE19925C22979C7B0023870A = {
+			isa = PBXGroup;
+			children = (
+				AE3FE924229D0CE5009AD497 /* README.md */,
+				AE19926722979C7B0023870A /* YeolDot */,
+				AE19927C22979C7D0023870A /* YeolDotTests */,
+				AE19928722979C7D0023870A /* YeolDotUITests */,
+				AE19926622979C7B0023870A /* Products */,
+				AE3B7C822297A88500128A4C /* resources */,
+				5C1D34EF9B92AAE00DECA1B4 /* Pods */,
+				36AAC0DA916857EA0F5B7B0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE19926622979C7B0023870A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE19926522979C7B0023870A /* YeolDot.app */,
+				AE19927922979C7D0023870A /* YeolDotTests.xctest */,
+				AE19928422979C7D0023870A /* YeolDotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE19926722979C7B0023870A /* YeolDot */ = {
+			isa = PBXGroup;
+			children = (
+				AE12FA9A22A2BB1A00312D8A /* Controller */,
+				AE12FA9922A2BB0B00312D8A /* Model */,
+				AE12FA9822A2BAEB00312D8A /* View */,
+				AE19926822979C7B0023870A /* AppDelegate.swift */,
+				AE19926F22979C7D0023870A /* Assets.xcassets */,
+				AE19927422979C7D0023870A /* Info.plist */,
+			);
+			path = YeolDot;
+			sourceTree = "<group>";
+		};
+		AE19927C22979C7D0023870A /* YeolDotTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE19927D22979C7D0023870A /* YeolDotTests.swift */,
+				AE19927F22979C7D0023870A /* Info.plist */,
+			);
+			path = YeolDotTests;
+			sourceTree = "<group>";
+		};
+		AE19928722979C7D0023870A /* YeolDotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE19928822979C7D0023870A /* YeolDotUITests.swift */,
+				AE19928A22979C7D0023870A /* Info.plist */,
+			);
+			path = YeolDotUITests;
+			sourceTree = "<group>";
+		};
+		AE3B7C822297A88500128A4C /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE6CB5FD22A57225008FDA9C /* refresh.png */,
+				AE3FE926229D156F009AD497 /* settings-cog.png */,
+				AE3B7C7F2297A26200128A4C /* background.jpg */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE19926422979C7B0023870A /* YeolDot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE19928D22979C7D0023870A /* Build configuration list for PBXNativeTarget "YeolDot" */;
+			buildPhases = (
+				BF2ACCE7C51423412B34A7DA /* [CP] Check Pods Manifest.lock */,
+				AE19926122979C7B0023870A /* Sources */,
+				AE19926222979C7B0023870A /* Frameworks */,
+				AE19926322979C7B0023870A /* Resources */,
+				10D2F12A1463F558C28C5021 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YeolDot;
+			productName = YeolDot;
+			productReference = AE19926522979C7B0023870A /* YeolDot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE19927822979C7D0023870A /* YeolDotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE19929022979C7D0023870A /* Build configuration list for PBXNativeTarget "YeolDotTests" */;
+			buildPhases = (
+				AE19927522979C7D0023870A /* Sources */,
+				AE19927622979C7D0023870A /* Frameworks */,
+				AE19927722979C7D0023870A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE19927B22979C7D0023870A /* PBXTargetDependency */,
+			);
+			name = YeolDotTests;
+			productName = YeolDotTests;
+			productReference = AE19927922979C7D0023870A /* YeolDotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE19928322979C7D0023870A /* YeolDotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE19929322979C7D0023870A /* Build configuration list for PBXNativeTarget "YeolDotUITests" */;
+			buildPhases = (
+				AE19928022979C7D0023870A /* Sources */,
+				AE19928122979C7D0023870A /* Frameworks */,
+				AE19928222979C7D0023870A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE19928622979C7D0023870A /* PBXTargetDependency */,
+			);
+			name = YeolDotUITests;
+			productName = YeolDotUITests;
+			productReference = AE19928422979C7D0023870A /* YeolDotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE19925D22979C7B0023870A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "김민우";
+				TargetAttributes = {
+					AE19926422979C7B0023870A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AE19927822979C7D0023870A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AE19926422979C7B0023870A;
+					};
+					AE19928322979C7D0023870A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AE19926422979C7B0023870A;
+					};
+				};
+			};
+			buildConfigurationList = AE19926022979C7B0023870A /* Build configuration list for PBXProject "YeolDot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE19925C22979C7B0023870A;
+			productRefGroup = AE19926622979C7B0023870A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE19926422979C7B0023870A /* YeolDot */,
+				AE19927822979C7D0023870A /* YeolDotTests */,
+				AE19928322979C7D0023870A /* YeolDotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE19926322979C7B0023870A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3FE927229D156F009AD497 /* settings-cog.png in Resources */,
+				AE6CB5FE22A57225008FDA9C /* refresh.png in Resources */,
+				AE19927322979C7D0023870A /* LaunchScreen.storyboard in Resources */,
+				AE3B7C802297A26200128A4C /* background.jpg in Resources */,
+				AE19927022979C7D0023870A /* Assets.xcassets in Resources */,
+				AE19926E22979C7B0023870A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19927722979C7D0023870A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19928222979C7D0023870A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10D2F12A1463F558C28C5021 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YeolDot/Pods-YeolDot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YeolDot/Pods-YeolDot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YeolDot/Pods-YeolDot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF2ACCE7C51423412B34A7DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YeolDot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE19926122979C7B0023870A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1BEA8122A54CCF00E94C04 /* SubMQTT.swift in Sources */,
+				C0668ACB22BC9F29008A85E7 /* SettingViewController.swift in Sources */,
+				AE19926B22979C7B0023870A /* ViewController.swift in Sources */,
+				AECF022D22B3BF8200D9B1D2 /* LoadingViewController.swift in Sources */,
+				C0668ACD22BCA5C2008A85E7 /* SaveLoginData.swift in Sources */,
+				AECF022F22B3C2DC00D9B1D2 /* FineDustViewController.swift in Sources */,
+				C0668AC922BC9EBB008A85E7 /* BringDeviceData.swift in Sources */,
+				C02C8FB722B4C4030017D56A /* LoginImformationViewController.swift in Sources */,
+				C02C8FB922B4D68F0017D56A /* AddLoginViewController.swift in Sources */,
+				AECF023122B3C2F500D9B1D2 /* UltrafineDustViewController.swift in Sources */,
+				AE4620A122A3AE6D000A1113 /* BringWeatherData.swift in Sources */,
+				AE19926922979C7B0023870A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19927522979C7D0023870A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19927E22979C7D0023870A /* YeolDotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19928022979C7D0023870A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19928922979C7D0023870A /* YeolDotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE19927B22979C7D0023870A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE19926422979C7B0023870A /* YeolDot */;
+			targetProxy = AE19927A22979C7D0023870A /* PBXContainerItemProxy */;
+		};
+		AE19928622979C7D0023870A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE19926422979C7B0023870A /* YeolDot */;
+			targetProxy = AE19928522979C7D0023870A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE19926C22979C7B0023870A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE19926D22979C7B0023870A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE19927122979C7D0023870A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE19927222979C7D0023870A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE19928B22979C7D0023870A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE19928C22979C7D0023870A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE19928E22979C7D0023870A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D9DA03C68A3346FE116B8A /* Pods-YeolDot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S2T22BPSM;
+				INFOPLIST_FILE = YeolDot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwkim177.YeolDot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE19928F22979C7D0023870A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEB5E252647AB9948FDC7A2 /* Pods-YeolDot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S2T22BPSM;
+				INFOPLIST_FILE = YeolDot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwkim177.YeolDot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE19929122979C7D0023870A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 489AGRK322;
+				INFOPLIST_FILE = YeolDotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwkim177.YeolDotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeolDot.app/YeolDot";
+			};
+			name = Debug;
+		};
+		AE19929222979C7D0023870A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 489AGRK322;
+				INFOPLIST_FILE = YeolDotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwkim177.YeolDotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeolDot.app/YeolDot";
+			};
+			name = Release;
+		};
+		AE19929422979C7D0023870A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 489AGRK322;
+				INFOPLIST_FILE = YeolDotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwkim177.YeolDotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YeolDot;
+			};
+			name = Debug;
+		};
+		AE19929522979C7D0023870A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 489AGRK322;
+				INFOPLIST_FILE = YeolDotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwkim177.YeolDotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YeolDot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE19926022979C7B0023870A /* Build configuration list for PBXProject "YeolDot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE19928B22979C7D0023870A /* Debug */,
+				AE19928C22979C7D0023870A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE19928D22979C7D0023870A /* Build configuration list for PBXNativeTarget "YeolDot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE19928E22979C7D0023870A /* Debug */,
+				AE19928F22979C7D0023870A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE19929022979C7D0023870A /* Build configuration list for PBXNativeTarget "YeolDotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE19929122979C7D0023870A /* Debug */,
+				AE19929222979C7D0023870A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE19929322979C7D0023870A /* Build configuration list for PBXNativeTarget "YeolDotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE19929422979C7D0023870A /* Debug */,
+				AE19929522979C7D0023870A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE19925D22979C7B0023870A /* Project object */;
+}
